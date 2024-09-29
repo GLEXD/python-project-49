@@ -4,5 +4,5 @@ def main():
 	print('Welcome to the Brain Games!')
 	welcome_user()
 
-if name == 'main':
+if __name__ == 'main':
 	main()
