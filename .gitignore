@@ -8,4 +8,7 @@ coverage.xml
 .pytest_cache/
 .vscode/
 .flake8
+.idea/
+dist/
+
 

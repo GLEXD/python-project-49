@@ -1,5 +1,2 @@
-from prompt_toolkit import prompt
+#!/usr/bin/env python3
 
-def welcome_user():
-    name = prompt('Welcome to the Brain Games!\nMay I have your name? ')
-    print(f'Hello, {name}!')
