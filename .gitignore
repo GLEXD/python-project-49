@@ -9,3 +9,5 @@ coverage.xml
 .vscode/
 .flake8
 .idea/
+project-venv/
+venv/
