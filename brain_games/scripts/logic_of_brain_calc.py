@@ -6,8 +6,6 @@ def get_random_expression():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     operation = random.choice(['+', '-', '*'])
-
-
     if operation == '+':
         correct_answer = num1 + num2
     elif operation == '-':
@@ -36,8 +34,6 @@ def run_expressions_game():
             print(f"Congratulations, {name}!")
             break
 
+
 if __name__ == '__main__':
     run_expressions_game()
-
-
-        
