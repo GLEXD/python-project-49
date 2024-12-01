@@ -20,23 +20,21 @@ def get_random_expression():
 def run_expressions_game():
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!\nWhat is the result of the expression?')
-
-    wins = 3
+    wins = 0
     for _ in range(3):
         question, correct_answer = get_random_expression()
         print("Question:", question)
-
         user_answer = prompt.string("Your answer: ")
-
-
         if int(user_answer) == correct_answer:
             print("Correct!")
+            wins += 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            return
-
-    print(f"Congratulations, {name}!")
+            break
+        if wins == 3:
+            print(f"Congratulations, {name}!")
+            break
 
 if __name__ == '__main__':
     run_expressions_game()
