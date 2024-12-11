@@ -27,8 +27,7 @@ def run_expressions_game():
             print("Correct!")
             wins += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}!")
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
             break
         if wins == 3:
             print(f"Congratulations, {name}!")
