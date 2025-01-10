@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from .logic_of_brain_calc import run_expressions_game
 
 

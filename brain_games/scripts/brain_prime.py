@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from .progression import run_progression_game
+from .prime import run_prime_game
 
 
 def main():
-    run_progression_game()
+    run_prime_game()
 
 
 if __name__ == '__main__':

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from .logic_of_brain_gcd import run_gcd_game
 
 
