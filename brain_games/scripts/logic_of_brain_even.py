@@ -1,7 +1,6 @@
 import prompt
 import random
 
-
 def run_game():
     wins = 0
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
