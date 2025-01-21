@@ -1,4 +1,4 @@
-import random
+from utilite import get_random_number
 import prompt
 
 
@@ -15,7 +15,7 @@ def run_prime_game():
     print(f'Hello, {name}!\nAnswer "yes" if given number is prime. Otherwise answer "no".')
     for _ in range(3):
         answer = ""
-        number = random.randint(1, 100)
+        number = get_random_number()
         if is_prime(number):
             answer = "yes"
         else:

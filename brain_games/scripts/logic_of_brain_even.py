@@ -1,12 +1,12 @@
 import prompt
-import random
+from utilite import get_random_number
 
 def run_game():
     wins = 0
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!\nAnswer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
-        number = random.randint(1, 100)
+        number = get_random_number()
         answer = ""
         if number % 2 == 0:
             answer = "yes"

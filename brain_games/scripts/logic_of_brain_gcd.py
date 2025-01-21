@@ -1,5 +1,5 @@
 import prompt
-import random
+from utilite import get_random_number
 import math
 
 
@@ -8,8 +8,8 @@ def run_gcd_game():
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!\nFind the greatest common divisor of given numbers.')
     for _ in range(3):
-        num1 = random.randint(1, 100)
-        num2 = random.randint(1, 100)
+        num1 = get_random_number()
+        num2 = get_random_number()
         print(f"Question: {num1} {num2}")
         user_answer = prompt.string("Your answer: ")
         correct_answer = math.gcd(num1, num2)

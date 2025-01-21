@@ -1,13 +1,13 @@
 import prompt
-import random
+from utilite import get_random_number, get_random_progression_index
 
 
 def generate_progression():
-    length = random.randint(5, 10)
-    first = random.randint(1, 20)
-    step = random.randint(1, 10)
+    length = get_random_number()
+    first = get_random_number()
+    step = get_random_number()
     progression = [first + i * step for i in range(length)]
-    missing_index = random.randint(0, length - 1)
+    missing_index = get_random_progression_index()
     missing_number = progression[missing_index]
     progression[missing_index] = '..'
     return progression, missing_number

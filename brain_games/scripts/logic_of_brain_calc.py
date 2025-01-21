@@ -1,11 +1,11 @@
 import prompt
-import random
+from utilite import get_random_number, get_random_operation
 
 
 def get_random_expression():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
-    operation = random.choice(['+', '-', '*'])
+    num1 = get_random_number()
+    num2 = get_random_number()
+    operation = get_random_operation()
     if operation == '+':
         correct_answer = num1 + num2
     elif operation == '-':
