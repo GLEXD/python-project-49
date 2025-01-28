@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from .logic_of_brain_calc import run_expressions_game
+from brain_games.games import calc
 
 
 def main():
-    run_expressions_game()
+    calc.start_game()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
