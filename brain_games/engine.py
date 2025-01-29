@@ -1,5 +1,5 @@
 import prompt
-from brain_games.scripts import consts
+from brain_games import consts
 
 
 def run_game(description, get_question_and_answer):
