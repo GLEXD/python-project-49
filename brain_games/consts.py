@@ -1,10 +1,10 @@
 rounds = 3
-DESCRIPTION_CALC = "What is the result of the expression?"
-DESCRIPTION_EVEN = (
+description_calc = "What is the result of the expression?"
+description_even = (
     "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 )
-DESCRIPTION_GCD = "Find the greatest common divisor of given numbers."
-DESCRIPTION_PRIME = (
+description_gcd = "Find the greatest common divisor of given numbers."
+description_prime = (
     "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
 )
-DESCRIPTION_PROGRESSION = "What number is missing in the progression?"
+description_progression = "What number is missing in the progression?"

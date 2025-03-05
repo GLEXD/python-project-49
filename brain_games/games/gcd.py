@@ -1,5 +1,5 @@
 from brain_games.utilite import get_random_number
-from brain_games.consts import DESCRIPTION_GCD
+from brain_games.consts import description_gcd
 import math
 from brain_games import engine
 
@@ -12,4 +12,4 @@ def get_question_and_answer():
 
 
 def start_game():
-    engine.run_game(DESCRIPTION_GCD, get_question_and_answer)
+    engine.run_game(description_gcd, get_question_and_answer)

@@ -1,5 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/GLEXD/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/GLEXD/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e1e390134022ee658815/maintainability)](https://codeclimate.com/github/GLEXD/python-project-49/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e1e390134022ee658815/test_coverage)](https://codeclimate.com/github/GLEXD/python-project-49/test_coverage)
 # Project was made for Hexlet by GLEXD
 
 ### Technology Stack

@@ -1,5 +1,5 @@
 from brain_games.utilite import get_random_number
-from brain_games.consts import DESCRIPTION_PRIME
+from brain_games.consts import description_prime
 from brain_games import engine
 
 
@@ -19,4 +19,4 @@ def get_question_and_answer():
 
 
 def start_game():
-    engine.run_game(DESCRIPTION_PRIME, get_question_and_answer)
+    engine.run_game(description_prime, get_question_and_answer)

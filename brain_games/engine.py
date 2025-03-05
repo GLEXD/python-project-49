@@ -4,8 +4,7 @@ from brain_games import consts
 
 def run_game(description, get_question_and_answer):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
-    print(f'Hello, {name}')
-    print(description)
+    print(f'Hello, {name}!\n{description}')
     for _ in range(consts.rounds):
         question, correct_answer = get_question_and_answer()
         print(f"Question: {question}")
