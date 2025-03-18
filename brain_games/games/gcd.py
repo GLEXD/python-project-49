@@ -11,5 +11,5 @@ def get_question_and_answer():
     return question, correct_answer
 
 
-def start_game():
+def start_gcd_game():
     engine.run_game(description_gcd, get_question_and_answer)

@@ -18,5 +18,5 @@ def get_question_and_answer():
     return problem_number, answer
 
 
-def start_game():
+def start_prime_game():
     engine.run_game(description_prime, get_question_and_answer)

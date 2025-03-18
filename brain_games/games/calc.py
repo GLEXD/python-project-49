@@ -21,5 +21,5 @@ def get_question_and_answer():
     return question, str(correct_answer)
 
 
-def start_game():
+def start_calc_game():
     engine.run_game(description_calc, get_question_and_answer)

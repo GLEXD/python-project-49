@@ -5,9 +5,9 @@ build:
 publish:
 	poetry publish --dry-run
 package-install:
-	python3 -m pip install --user dist/*.whl
+	pipx install dist/*.whl
 package-reinstall:
-	python3 -m pip install --upgrade --force-reinstall dist/*.whl
+	pipx install --force dist/*.whl
 lint:
 	poetry run flake8 brain_games
 brain-games:
