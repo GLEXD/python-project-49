@@ -18,7 +18,7 @@ make package-install
 
 ### REMOVAL:
 
-rm -rf python-project-49
+python3 -m pip uninstall hexlet-code
 
 ### To run games after installation write in command line those commands:
 
