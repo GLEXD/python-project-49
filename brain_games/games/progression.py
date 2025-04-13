@@ -15,5 +15,5 @@ def get_question_and_answer():
     return question, str(correct_answer)
 
 
-def start_progression_game():
+def run_progression_game():
     engine.run_game(description_progression, get_question_and_answer)

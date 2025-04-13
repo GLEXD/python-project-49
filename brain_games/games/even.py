@@ -13,5 +13,5 @@ def get_question_and_answer():
     return number, answer
 
 
-def start_even_game():
+def run_even_game():
     engine.run_game(description_even, get_question_and_answer)
